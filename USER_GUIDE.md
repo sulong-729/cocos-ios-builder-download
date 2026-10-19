@@ -64,9 +64,10 @@ assuming any particular iOS version is available.
 
 ## 3. Download and verify the installer
 
-Use the latest GitHub Release in the public download repository. Download the
-`.pkg` and the matching `.sha256` file. Avoid old copies and GitHub's generated
-“Source code” archives: those are not installers.
+Use the `dowload-v101` branch in the public download repository. Open the `.pkg`
+file and use **Download raw file**; download the matching `.sha256` file too.
+Direct download links are in the branch README. Do not use the repository ZIP
+as an installer: GitHub may include only an LFS pointer instead of the PKG.
 
 For the currently prepared development build, the files are:
 
