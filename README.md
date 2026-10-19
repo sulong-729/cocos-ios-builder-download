@@ -1,8 +1,7 @@
 # Cocos iOS Builder — Downloads
 
 A macOS desktop tool for building and running Cocos Creator 3.x projects on iOS.
-This repository contains user documentation and metadata for the **newest build
-only**. The application development repository is private and separate.
+This repository contains user documentation for the **newest build only**. The application development repository is private and separate.
 
 The download branch is intentionally named **`dowload`**.
 
@@ -24,7 +23,7 @@ signed distribution requires Developer ID signing and Apple notarization by the
 maintainer. This preview must not be described as a notarized release.
 
 The installer is a Release asset because it exceeds GitHub's 100 MiB normal-file
-limit. The branch contains the checksum and metadata, not the installer binary.
+limit. The branch contains only user documentation; the installer and checksum are Release assets.
 Do not download GitHub's automatic “Source code” archives to install the tool.
 
 ## Supported scope
@@ -80,9 +79,7 @@ Run**. That action deletes the selected app and its data after confirmation.
 ## Detailed documentation
 
 - [Full User Guide](USER_GUIDE.md)
-- [Current Release Notes](RELEASE_NOTES.md)
-- [Current Release Metadata](release.json)
-- [Installer SHA-256](cocos-builder-1.0.1-macOS-arm64-development.pkg.sha256)
+- [Installer SHA-256](https://github.com/sulong-729/cocos-ios-builder-download/releases/download/v1.0.1/cocos-builder-1.0.1-macOS-arm64-development.pkg.sha256)
 
 The user guide covers all settings, build/cache behavior, Simulator management,
 logs/crash reports, prerequisites, troubleshooting, and uninstall instructions.
