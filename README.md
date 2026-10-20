@@ -8,8 +8,8 @@ Android phone. The installed application is currently named **cocos builder**.
 
 ## 1. Download the installer
 
-- **[Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)**
-- [Download its matching checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
+- **[Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/installer-cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)**
+- [Download its matching checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/installer-cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
 - [Read the complete installation and usage guide](USER_GUIDE.md)
 
 Download both files. Use the direct installer link above: the repository ZIP and
