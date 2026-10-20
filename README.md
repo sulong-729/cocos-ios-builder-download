@@ -1,6 +1,9 @@
 # Cocos Builder Duo Native
 
-**Version 1.0.2 · iOS + Android APK · Apple Silicon Mac**
+**Version 1.0.3 · iOS + Android APK · Apple Silicon Mac**
+
+Version 1.0.3 adds Android export caching, Gradle cache/daemon reuse and a hidden
+Creator worker.
 
 Build and run Cocos Creator native projects from one macOS desktop tool. Choose
 **iOS** for Xcode / Simulator / iPhone, or **Android** for Gradle / APK / emulator /
@@ -8,8 +11,8 @@ Android phone. The installed application is currently named **cocos builder**.
 
 ## 1. Download the installer
 
-- **[Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/installer-cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)**
-- [Download its matching checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/installer-cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
+- **[Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/installer-cocos-builder-duo-native/dowload-v103/cocos-builder-1.0.3-macOS-arm64-development.pkg?download=1)**
+- [Download its matching checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/installer-cocos-builder-duo-native/dowload-v103/cocos-builder-1.0.3-macOS-arm64-development.pkg.sha256)
 - [Read the complete installation and usage guide](USER_GUIDE.md)
 
 Download both files. Use the direct installer link above: the repository ZIP and
@@ -29,7 +32,7 @@ Administrator authorization during installation does not change this status.
 
    ```sh
    cd ~/Downloads
-   shasum -a 256 -c cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256
+   shasum -a 256 -c cocos-builder-1.0.3-macOS-arm64-development.pkg.sha256
    ```
 
    Continue only when the filename is followed by **OK**. If it does not match,
@@ -112,5 +115,5 @@ Windows/Linux hosts, Intel Mac installers, Creator 2.x, Android AAB output and
 App Store / Play Store publishing are not supported.
 
 Source: [sulong-729/cocosBuilderSrc](https://github.com/sulong-729/cocosBuilderSrc).
-This download repo keeps the newest installer on **`dowload-v102`**, with its
+This download repo keeps the newest installer on **`dowload-v103`**, with its
 checksum and guides. It does not publish Release/tag downloads.
