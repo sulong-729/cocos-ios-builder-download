@@ -1,4 +1,6 @@
-# Cocos Builder 1.0.2 — Download and User Guide
+# Cocos Builder Duo Native 1.0.2 — Download and User Guide
+
+Cocos Builder Duo Native supports native **iOS and Android APK** workflows.
 
 This branch, **`dowload-v102`**, contains the installer, checksum, and English
 user documentation. Application source is maintained in a separate public
@@ -6,8 +8,8 @@ repository. Downloads are distributed from this branch without a Release/tag.
 
 ## Download
 
-- [Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/cocos-ios-builder-download/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)
-- [Download the checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/cocos-ios-builder-download/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
+- [Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)
+- [Download the checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/cocos-builder-duo-native/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
 - [Read the full User Guide](USER_GUIDE.md)
 
 The installer is stored with Git LFS because it exceeds GitHub's normal Git
@@ -125,8 +127,8 @@ Install Git LFS first, then:
 
 ```sh
 git lfs install
-git clone --branch dowload-v102 --single-branch https://github.com/sulong-729/cocos-ios-builder-download.git
-cd cocos-ios-builder-download
+git clone --branch dowload-v102 --single-branch https://github.com/sulong-729/cocos-builder-duo-native.git
+cd cocos-builder-duo-native
 git lfs pull
 shasum -a 256 -c cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256
 ```
