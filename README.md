@@ -6,7 +6,7 @@ repository. Downloads are distributed from this branch without a Release/tag.
 
 ## Download
 
-- [Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/cocos-ios-builder-download/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg)
+- [Download the macOS installer (.pkg)](https://media.githubusercontent.com/media/sulong-729/cocos-ios-builder-download/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg?download=1)
 - [Download the checksum (.sha256)](https://raw.githubusercontent.com/sulong-729/cocos-ios-builder-download/dowload-v102/cocos-builder-1.0.2-macOS-arm64-development.pkg.sha256)
 - [Read the full User Guide](USER_GUIDE.md)
 
